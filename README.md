@@ -5,7 +5,8 @@
 This project focuses on fine-tuning a Text-to-Speech (TTS) model for Hindi language speech synthesis using the SpeechT5 architecture. The model is trained on the Mozilla Common Voice dataset to generate natural-sounding speech from Hindi text input.
 Link for dataset: https://commonvoice.mozilla.org/en/datasets
 Choose "Hindi" in the languages
-Python 3.7 or higher
+
+Python 3.7 or higher(preferabilly 3.11.10)
 - [PyTorch](https://pytorch.org/get-started/locally/) (with the correct version based on your CUDA setup)
 - Other dependencies specified in `requirements.txt`
 
