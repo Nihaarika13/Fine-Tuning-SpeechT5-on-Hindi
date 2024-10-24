@@ -1,0 +1,7 @@
+librosa
+pandas
+numpy
+tqdm
+transformers
+torch
+subprocess32==0.3.5
