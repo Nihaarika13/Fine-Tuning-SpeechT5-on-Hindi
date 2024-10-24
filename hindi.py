@@ -105,8 +105,11 @@ mean_mos_score = generate_speech_and_collect_mos(model, tokenizer, eval_df)
 print(f"Mean MOS Score: {mean_mos_score}")
 
 # Step 6: Save the Fine-tuned Model
-model_save_path = "./fine_tuned_speecht5_hindi"
-model.save_pretrained(model_save_path)
-tokenizer.save_pretrained(model_save_path)
+model_save_path = "./hindi.model"
+torch.save(model.state_dict(), model_save_path)  # Save model state_dict
 
-print(f"Model and tokenizer saved at {model_save_path}")
+# Save tokenizer separately
+tokenizer.save_pretrained("tokenizer")  # Save tokenizer in a separate directory
+
+print(f"Model saved as {model_save_path}")
+print("Tokenizer saved in 'tokenizer' directory.")
