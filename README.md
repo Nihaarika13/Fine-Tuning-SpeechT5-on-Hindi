@@ -61,7 +61,8 @@ Step 4: Install eSpeak for Phonemization
 For phonemization (converting Hindi text to phonemes), we use eSpeak. Install eSpeak with the following commands:
 
 Linux:
-Code:
+Code
+
          sudo apt-get install espeak
 
 Windows:
