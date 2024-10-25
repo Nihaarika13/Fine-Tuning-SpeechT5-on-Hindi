@@ -19,9 +19,11 @@ This repository provides the steps and code to fine-tune the SpeechT5 model for 
 Prerequisites
 Ensure that you have the following installed on your system:
 
-Python 3.7 or higher(prefer 3.11.10)
-GPU (optional but highly recommended for faster training)
-Git
+->Python 3.7 or higher(prefer 3.11.10)
+
+->GPU (optional but highly recommended for faster training)
+
+->Git
 
 Installation
 Follow the steps below to set up the environment and install the required dependencies.
@@ -29,25 +31,24 @@ Follow the steps below to set up the environment and install the required depend
 Step 1: Clone the Repository
 First, clone this repository to your local machine:
 
-bash
-Copy code
+Code
 git clone https://github.com/your-repo/Fine-Tuning-SpeechT5-on-Hindi.git
+
 cd Fine-Tuning-SpeechT5-on-Hindi
 
 Step 2: Set Up a Virtual Environment (Optional)
 It's recommended to use a virtual environment to isolate dependencies:
 
-bash
-Copy code
+Code:
 python -m venv venv
 source venv/bin/activate  # On Linux/macOS
-# OR
+ OR
+ 
 venv\Scripts\activate      # On Windows
 Step 3: Install Requirements
 The required Python packages are listed in the requirements.txt file. Install them using the following command:
 
-bash
-Copy code
+Code:
 pip install -r requirements.txt
 
 You may also need to install additional packages like espeak for phonemization:
@@ -56,10 +57,9 @@ Step 4: Install eSpeak for Phonemization
 For phonemization (converting Hindi text to phonemes), we use eSpeak. Install eSpeak with the following commands:
 
 Linux:
-
-bash
-Copy code
+Code:
 sudo apt-get install espeak
+
 Windows:
 
 Download the installer from eSpeak's official site and follow the installation instructions.
@@ -67,7 +67,6 @@ Download the installer from eSpeak's official site and follow the installation i
 Step 5: Verify Installations
 After installing the dependencies, run the following command to verify if everything is correctly installed:
 
-bash
-Copy code
+Code:
 python -c "import torch, librosa, pandas, transformers"
 If no errors are raised, you are ready to proceed.
