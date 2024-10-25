@@ -32,7 +32,7 @@ Step 1: Clone the Repository
 First, clone this repository to your local machine:
 
 Code:
-git clone https://github.com/your-repo/Fine-Tuning-SpeechT5-on-Hindi.git
+           git clone https://github.com/your-repo/Fine-Tuning-SpeechT5-on-Hindi.git
 
            cd Fine-Tuning-SpeechT5-on-Hindi
 
@@ -40,16 +40,17 @@ Step 2: Set Up a Virtual Environment (Optional)
 It's recommended to use a virtual environment to isolate dependencies:
 
 Code:
-python -m venv venv
-source venv/bin/activate  # On Linux/macOS
+        python -m venv venv
+        source venv/bin/activate  # On Linux/macOS
  OR
  
-venv\Scripts\activate      # On Windows
+        venv\Scripts\activate      # On Windows
+        
 Step 3: Install Requirements
 The required Python packages are listed in the requirements.txt file. Install them using the following command:
 
 Code:
-pip install -r requirements.txt
+        pip install -r requirements.txt
 
 You may also need to install additional packages like espeak for phonemization:
 
@@ -58,7 +59,7 @@ For phonemization (converting Hindi text to phonemes), we use eSpeak. Install eS
 
 Linux:
 Code:
-sudo apt-get install espeak
+         sudo apt-get install espeak
 
 Windows:
 
@@ -68,5 +69,6 @@ Step 5: Verify Installations
 After installing the dependencies, run the following command to verify if everything is correctly installed:
 
 Code:
-python -c "import torch, librosa, pandas, transformers"
+         python -c "import torch, librosa, pandas, transformers"
+         
 If no errors are raised, you are ready to proceed.
