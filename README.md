@@ -31,10 +31,10 @@ Follow the steps below to set up the environment and install the required depend
 Step 1: Clone the Repository
 First, clone this repository to your local machine:
 
-Code
+Code:
 git clone https://github.com/your-repo/Fine-Tuning-SpeechT5-on-Hindi.git
 
-cd Fine-Tuning-SpeechT5-on-Hindi
+           cd Fine-Tuning-SpeechT5-on-Hindi
 
 Step 2: Set Up a Virtual Environment (Optional)
 It's recommended to use a virtual environment to isolate dependencies:
