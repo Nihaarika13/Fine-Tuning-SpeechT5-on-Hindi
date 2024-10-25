@@ -1,6 +1,5 @@
 # Fine-Tuning-SpeechT5-on-Hindi
 
-# Hindi Text-to-Speech Model Using SpeechT5
 
 This project focuses on fine-tuning a Text-to-Speech (TTS) model for Hindi language speech synthesis using the SpeechT5 architecture. The model is trained on the Mozilla Common Voice dataset to generate natural-sounding speech from Hindi text input.
 
